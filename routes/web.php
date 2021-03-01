@@ -21,6 +21,25 @@ Route::get('/home', function () {
     return redirect('/');
 });
 
+Route::view('/tentang-stasiun', 'pages.static.tentang-stasiun')->name('tentang.stasiun');
+Route::view('/visi-misi', 'pages.static.visi-misi')->name('visi.misi');
+Route::view('/tugas-fungsi', 'pages.static.tugas-fungsi')->name('tugas.fungsi');
+Route::view('/struktur-organisasi', 'pages.static.struktur')->name('struktur.organisasi');
+Route::view('/pegawai', 'pages.static.pegawai')->name('pegawai');
+Route::view('/peralatan', 'pages.static.peralatan')->name('peralatan');
+Route::view('/citra-satelit', 'pages.static.citra-satelit')->name('citra.satelit');
+Route::view('/citra-radar', 'pages.static.citra-radar')->name('citra.radar');
+Route::view('/citra-sebaran-asap', 'pages.static.citra-sebaran-asap')->name('citra.sebaran.asap');
+Route::view('/potensi-hujan', 'pages.static.potensi-hujan')->name('potensi.hujan');
+Route::view('/potensi-kebakaran-hutan', 'pages.static.pot-kebakaran-hutan')->name('pot.kebakaran.hutan');
+Route::view('/peta-cuaca', 'pages.static.peta-cuaca')->name('peta.cuaca');
+Route::view('/peta-gelombang', 'pages.static.peta-gelombang')->name('peta.gelombang');
+
+
+Route::get('/publikasi', [HomeController::class, 'publikasi'])->name('publikasi');
+
+
+
 Route::prefix('admin')
     ->middleware('admin')
     ->group(function () {

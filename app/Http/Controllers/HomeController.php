@@ -38,4 +38,12 @@ class HomeController extends Controller
         $data = Post::with('category', 'user')->latest()->paginate(6);
         return view('pages.home', compact('data', 'hari', 'bmkg', 'geo1'));
     }
+
+    public function publikasi()
+    {
+
+        $hari = Carbon::now();
+        $data = Post::with('category', 'user')->latest()->paginate(12);
+        return view('pages.publikasi', compact('data', 'hari'));
+    }
 }

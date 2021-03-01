@@ -1,5 +1,4 @@
        <link href="css/custom.css" rel="stylesheet" type="text/css" media="all" />
-       <link rel="stylesheet" href="css/swiper-bundle.min.css" />
        <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
        <link href="css/stack-interface.css" rel="stylesheet" type="text/css" media="all">
        <link href="css/socicon.css" rel="stylesheet" type="text/css" media="all" />

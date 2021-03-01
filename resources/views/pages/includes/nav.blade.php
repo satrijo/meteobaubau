@@ -20,12 +20,12 @@
                                     <div class="row">
                                         <div class="dropdown__content col-lg-2">
                                             <ul class="menu-vertical">
-                                                <li> <a href="#">Tentang Stasiun</a> </li>
-                                                <li> <a href="#">Visi dan Misi</a> </li>
-                                                <li> <a href="#">Tugas dan Fungsi</a> </li>
-                                                <li> <a href="#">Struktur Organisasi</a> </li>
-                                                <li> <a href="#">Pegawai</a> </li>
-                                                <li> <a href="#">Peralatan</a> </li>
+                                                <li> <a href="{{route('tentang.stasiun')}}">Tentang Stasiun</a> </li>
+                                                <li> <a href="{{route('visi.misi')}}">Visi dan Misi</a> </li>
+                                                <li> <a href="{{route('tugas.fungsi')}}">Tugas dan Fungsi</a> </li>
+                                                <!-- <li> <a href="{{route('struktur.organisasi')}}">Struktur Organisasi</a> </li>
+                                                <li> <a href="{{route('pegawai')}}">Pegawai</a> </li>
+                                                <li> <a href="{{route('peralatan')}}">Peralatan</a> </li> -->
                                             </ul>
                                         </div>
                                     </div>
@@ -39,24 +39,22 @@
                                     <div class="row">
                                         <div class="dropdown__content col-lg-2">
                                             <ul class="menu-vertical">
-                                                <li> <a href="#">Citra Satelit</a> </li>
-                                                <li>
-                                                    <a href="#"> </a>
-                                                </li>
-                                                <li> <a href="#">Citra Sebaran Asap</a> </li>
-                                                <li> <a href="#">Potensi Hujan</a> </li>
-                                                <li> <a href="#">Pot. Kebakaran Hutan</a> </li>
-                                                <li> <a href="#">Peta Cuaca</a> </li>
-                                                <li> <a href="#">Peta Gelombang</a> </li>
+                                                <li> <a href="{{ route('citra.satelit') }}">Citra Satelit</a> </li>
+                                                <li> <a href="{{ route('citra.radar') }}">Citra Radar </a></li>
+                                                <li> <a href="{{ route('citra.sebaran.asap') }}">Citra Sebaran Asap</a> </li>
+                                                <li> <a href="{{ route('potensi.hujan') }}">Potensi Hujan</a> </li>
+                                                <li> <a href="{{ route('pot.kebakaran.hutan') }}">Pot. Kebakaran Hutan</a> </li>
+                                                <li> <a href="{{ route('peta.cuaca') }}">Peta Cuaca</a> </li>
+                                                <li> <a href="{{ route('peta.gelombang') }}">Peta Gelombang</a> </li>
                                             </ul>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
-                        <li> <a href="#">
+                        <li> <a href="">
                                 Pelayanan</a> </li>
-                        <li> <a href="#">
+                        <li> <a href="{{ route('publikasi') }}">
                                 Publikasi</a> </li>
                         <li> <a href="#">
                                 kontak kami</a> </li>
