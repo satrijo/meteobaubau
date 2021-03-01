@@ -4,7 +4,7 @@
             <div class="col-lg-1 col-md-2 hidden-xs">
                 <div class="bar__module">
                     <a href="/" class="logo logo-dark text-dark d-flex justify-content-lg-start" style="text-decoration: none; font-size: x-large; color:dimgray; font-weight:600;">
-                        <img src="img/logo-bmkg.png" height="30px" class="mr-2"><span style="font-weight:700;">Meteo</span>Baubau
+                        <img src="/img/logo-bmkg.png" height="30px" class="mr-2"><span style="font-weight:700;">Meteo</span>Baubau
                     </a>
                 </div>
             </div>
@@ -52,11 +52,11 @@
                                 </div>
                             </div>
                         </li>
-                        <li> <a href="">
+                        <li> <a href="https://pelayanan.meteobaubau.com">
                                 Pelayanan</a> </li>
                         <li> <a href="{{ route('publikasi') }}">
                                 Publikasi</a> </li>
-                        <li> <a href="#">
+                        <li> <a href="{{route('kontak.kami')}}">
                                 kontak kami</a> </li>
                     </ul>
                 </div>
@@ -67,6 +67,8 @@
                     <form id="logout-form" action="{{ route('logout') }}" method="POST" class="d-none">
                         @csrf
                     </form>
+                    <a class="btn btn--sm btn--primary type--uppercase" href="{{route('dashboard')}}"> <span class="btn__text">
+                            Dashboard</span> </a>
                 </div>
                 @else
                 <div class="bar__module">

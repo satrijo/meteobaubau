@@ -19,6 +19,13 @@ class PostController extends Controller
         return view('admin.posts.index', compact('data'));
     }
 
+    public function show($slug)
+    {
+        $data = Post::where('slug', $slug)->get();
+        // dd($data);
+        return view('pages.post', compact('data'));
+    }
+
     public function create()
     {
         $category = Category::all();

@@ -12,9 +12,9 @@
             @foreach($data as $d)
             <div class="col-md-4">
                 <article class="feature feature-1">
-                    <a href="{{$d->slug}}" class="block"> <img class="img--fullwidth cover-gambar" alt="Image" src="storage/{{$d->image}}"> </a>
+                    <a href="/p/{{$d->slug}}" class="block"> <img class="img--fullwidth cover-gambar" alt="Image" src="storage/{{$d->image}}"> </a>
                     <div class="feature__body boxed boxed--border"> <span>{{$d->created_at->diffForHumans()}} &middot; {{$d->category->name}}</span>
-                        <h5>{{$d->name}}</h5> <a href="#">
+                        <h5>{{$d->name}}</h5> <a href="/p/{{$d->slug}}" class="block">
                             Read More
                         </a>
                     </div>

@@ -47,7 +47,7 @@
                         </div>
                         <div class="form-group">
                             <label for="text" class="font-weight-bold text-capitalize">text</label>
-                            <textarea type="text" name="text" placeholder="Deskripsi (Optional)" rows="10" class="d-block w-100 form-control">{{$data->text}}</textarea>
+                            <textarea id="mytextarea" type="text" name="text" placeholder="Deskripsi (Optional)" rows="30">{{$data->text}}</textarea>
                         </div>
                         <button class="btn btn-primary btn-block" type="submit">Update</button>
                     </form>

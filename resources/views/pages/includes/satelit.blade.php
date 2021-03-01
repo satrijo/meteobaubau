@@ -9,7 +9,7 @@
         <div class="row">
             <div class="col-md-3">
                 <article class="feature feature-1">
-                    <a href="#" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="img/streamline.jpg"> </a>
+                    <a href="{{route('peta.cuaca')}}" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="img/streamline.jpg"> </a>
                     <div class="p-2"> <span> {{$hari->addDay(1)->format('d M Y')}}</span>
                         <h5>Prakiraan Angin dan Cuaca</h5>
                     </div>
@@ -17,7 +17,7 @@
             </div>
             <div class="col-md-3">
                 <article class="feature feature-1">
-                    <a href="#" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="img/gelombang_maritim.png"> </a>
+                    <a href="{{route('peta.gelombang')}}" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="img/gelombang_maritim.png"> </a>
                     <div class="p-2"> <span> {{date('d M Y')}}</span>
                         <h5>Prakiraan Tinggi Gelombang</h5>
                     </div>
@@ -25,7 +25,7 @@
             </div>
             <div class="col-md-3">
                 <article class="feature feature-1">
-                    <a href="#" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="img/hima.png"> </a>
+                    <a href="{{route('citra.satelit')}}" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="img/hima.png"> </a>
                     <div class="p-2"> <span> {{date('d M Y - h:i') . 'UTC'}}</span>
                         <h5>Citra Satelit Himawari EH</h5>
                     </div>
@@ -33,7 +33,7 @@
             </div>
             <div class="col-md-3">
                 <article class="feature feature-1">
-                    <a href="#" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="img/ibf.jpg"> </a>
+                    <a href="{{route('peta.cuaca')}}" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="img/ibf.jpg"> </a>
                     <div class="p-2"> <span> {{$hari->format('d M Y')}}</span>
                         <h5>Prakiraan Cuaca Berbasis Dampak</h5>
                     </div>
@@ -41,7 +41,7 @@
             </div>
             <div class="col-md-3">
                 <article class="feature feature-1">
-                    <a href="#" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="https://cdn.bmkg.go.id/DataMKG/CEWS/pch/pch.bulan.1.cond1.png"> </a>
+                    <a href="{{route('potensi.hujan')}}" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="https://cdn.bmkg.go.id/DataMKG/CEWS/pch/pch.bulan.1.cond1.png"> </a>
                     <div class="p-2"> <span> {{ $hari->format('M Y') }}</span>
                         <h5>Prakiraan Curah Hujan</h5>
                     </div>
@@ -49,7 +49,7 @@
             </div>
             <div class="col-md-3">
                 <article class="feature feature-1">
-                    <a href="#" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="img/36_indonesia_ffmc_01.png"> </a>
+                    <a href="{{route('pot.kebakaran.hutan')}}" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="img/36_indonesia_ffmc_01.png"> </a>
                     <div class="p-2"> <span> {{ $hari->format('d M Y') }}</span>
                         <h5>Potensi Kebakaran Hutan</h5>
                     </div>
@@ -57,7 +57,7 @@
             </div>
             <div class="col-md-3">
                 <article class="feature feature-1">
-                    <a href="#" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="img/asap.PNG"> </a>
+                    <a href="{{route('citra.sebaran.asap')}}" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="img/asap.PNG"> </a>
                     <div class="p-2"> <span> {{date('d M Y - h:i') . 'UTC'}}</span>
                         <h5>Citra Sebaran Asap Kebakaran Hutan</h5>
                     </div>
@@ -65,7 +65,7 @@
             </div>
             <div class="col-md-3">
                 <article class="feature feature-1">
-                    <a href="#" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="img/radar.png"> </a>
+                    <a href="{{route('citra.radar')}}" class="block"> <img alt="Image" class="img--fullwidth cover-gambar" src="img/radar.png"> </a>
                     <div class="p-2"> <span> {{date('d M Y - h:i') . 'UTC'}}</span>
                         <h5>Citra Radar Kendari</h5>
                     </div>

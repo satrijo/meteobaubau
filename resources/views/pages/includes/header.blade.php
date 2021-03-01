@@ -5,7 +5,7 @@
                 <div class="row">
                     <div class="col-3 col-md-2">
                         <a href="/">
-                            <img src="img/logo-bmkg.png" height="50px">
+                            <img src="/img/logo-bmkg.png" height="50px">
                         </a>
                     </div>
                     <div class="col-9 col-md-10 text-right">

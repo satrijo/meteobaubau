@@ -45,7 +45,7 @@
                         </div>
                         <div class="form-group">
                             <label for="text" class="font-weight-bold text-capitalize">text</label>
-                            <textarea type="text" name="text" placeholder="Deskripsi (Optional)" rows="10" class="d-block w-100 form-control">{{old('text')}}</textarea>
+                            <textarea id="mytextarea" type="text" name="text" placeholder="Deskripsi (Optional)" rows="10">{{old('text')}}</textarea>
                         </div>
                         <button class="btn btn-primary btn-block" type="submit">Simpan</button>
                     </form>

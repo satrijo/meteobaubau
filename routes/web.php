@@ -34,10 +34,11 @@ Route::view('/potensi-hujan', 'pages.static.potensi-hujan')->name('potensi.hujan
 Route::view('/potensi-kebakaran-hutan', 'pages.static.pot-kebakaran-hutan')->name('pot.kebakaran.hutan');
 Route::view('/peta-cuaca', 'pages.static.peta-cuaca')->name('peta.cuaca');
 Route::view('/peta-gelombang', 'pages.static.peta-gelombang')->name('peta.gelombang');
+Route::view('/kontak-kami', 'pages.static.kontak')->name('kontak.kami');
 
 
 Route::get('/publikasi', [HomeController::class, 'publikasi'])->name('publikasi');
-
+Route::get('/p/{slug}', [PostController::class, 'show'])->name('show');
 
 
 Route::prefix('admin')
