@@ -8,7 +8,7 @@
             <div class="col">
                 <article>
                     <div class="article__title text-center">
-                        <h1 class="h2">Tentang Stasiun</h1> <span>MeteoBaubau </span>
+                        <h1 class="h2">Sejarah BMKG</h1> <span>MeteoBaubau </span>
                     </div>
                     <div class="article__body">
                         <p>Sejarah pengamatan meteorologi dan geofisika di Indonesia dimulai pada tahun 1841 diawali dengan pengamatan yang dilakukan secara perorangan oleh Dr. Onnen, Kepala Rumah Sakit di Bogor. Tahun demi tahun kegiatannya berkembang sesuai dengan semakin diperlukannya data hasil pengamatan cuaca dan geofisika.</p>

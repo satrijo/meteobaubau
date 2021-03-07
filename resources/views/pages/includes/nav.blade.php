@@ -20,7 +20,7 @@
                                     <div class="row">
                                         <div class="dropdown__content col-lg-2">
                                             <ul class="menu-vertical">
-                                                <li> <a href="{{route('tentang.stasiun')}}">Tentang Stasiun</a> </li>
+                                                <li> <a href="{{route('sejarah.bmkg')}}">Sejarah BMKG</a> </li>
                                                 <li> <a href="{{route('visi.misi')}}">Visi dan Misi</a> </li>
                                                 <li> <a href="{{route('tugas.fungsi')}}">Tugas dan Fungsi</a> </li>
                                                 <!-- <li> <a href="{{route('struktur.organisasi')}}">Struktur Organisasi</a> </li>

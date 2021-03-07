@@ -21,7 +21,7 @@ Route::get('/home', function () {
     return redirect('/');
 });
 
-Route::view('/tentang-stasiun', 'pages.static.tentang-stasiun')->name('tentang.stasiun');
+Route::view('/sejarah-bmkg', 'pages.static.sejarah-bmkg')->name('sejarah.bmkg');
 Route::view('/visi-misi', 'pages.static.visi-misi')->name('visi.misi');
 Route::view('/tugas-fungsi', 'pages.static.tugas-fungsi')->name('tugas.fungsi');
 Route::view('/struktur-organisasi', 'pages.static.struktur')->name('struktur.organisasi');
