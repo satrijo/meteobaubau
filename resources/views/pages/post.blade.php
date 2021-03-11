@@ -14,9 +14,7 @@
                     </div>
                     <div class="boxed boxed-border">
                         <img src="/storage/{{$d->image}}" height="300px" class="img--fullwidth" style="object-fit: cover; object-position: center;">
-                        <div class="article__body">
-                            <p>{!! nl2br($d->text)!!}</p>
-                        </div>
+                        {!! nl2br($d->text)!!}
                     </div>
                     @endforeach
                 </article>
