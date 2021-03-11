@@ -180,7 +180,7 @@ blockquote {
 ul,
 ol {
     list-style: none;
-    line-height: 0.5em;
+    /* line-height: 0.5em; */
 }
 
 ul.bullets {
